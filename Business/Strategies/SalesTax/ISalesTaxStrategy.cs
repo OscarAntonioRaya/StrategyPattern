@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Strategy_Pattern_First_Look.Business.Strategies.SalesTax
 {
-    internal interface ISalesTaxStrategy
+    public interface ISalesTaxStrategy
     {
         public decimal GetTaxFor(Order order);
     }
